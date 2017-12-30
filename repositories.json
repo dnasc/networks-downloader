@@ -1,0 +1,47 @@
+{
+    "all": {
+        "site_url": "all repositories"
+    },
+    "ccrawl": {
+        "site_url": "http://www.bigdatanews.com/profiles/blogs/big-data-set-3-5-billion-web-pages-made-available-for-all-of-us"
+    },
+    "dblp": {
+        "site_url": ""
+    },
+    "dimacs11": {
+        "site_url": "http://dimacs11.zib.de/downloads.html"
+    },
+    "dimacs9": {
+        "site_url": "http://www.dis.uniroma1.it/challenge9/download.shtml"
+    },
+    "doi": {
+        "site_url": "https://archive.org/details/doi-urls"
+    },
+    "hetrec": {
+        "site_url": "http://grouplens.org/datasets/hetrec-2011/"
+    },
+    "kone": {
+        "site_url": "http://konect.uni-koblenz.de/downloads/"
+    },
+    "lalg": {
+        "site_url": "http://law.di.unimi.it/datasets.php"
+    },
+    "mvlens": {
+        "site_url": "http://grouplens.org/datasets/movielens/"
+    },
+    "nber": {
+        "site_url": "http://nber.org/patents/"
+    },
+    "netr": {
+        "site_url": "http://networkrepository.com/networks.php"
+    },
+    "small": {
+        "site_url": "http://www-personal.umich.edu/~mejn/netdata/"
+    },
+    "spmx": {
+        "site_url": "http://www.cise.ufl.edu/research/sparse/matrices/list_by_id.html"
+    },
+    "snap": {
+        "site_url": "http://snap.stanford.edu/data/index.html"
+    }
+}
