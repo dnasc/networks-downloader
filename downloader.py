@@ -40,10 +40,10 @@ class NetworkDownloader(object):
 
     def __init__(self, repository_name, site_url):
         """
+        Constructor for NetworkDownloader.
         
-        :param repository_name: 
-        :param site_url: 
-        :param headers: 
+        :param repository_name: A repository name.
+        :param site_url: A repository url where links to data are located.
         """
 
         self._repository_name = repository_name
@@ -61,9 +61,10 @@ class NetworkDownloader(object):
     @timer_decorator('download networks')
     def download_networks(self, repository_output_dir):
         """
+        Downloads networks for a specific data repository.
         
-        :param repository_output_dir: 
-        :return: 
+        :param repository_output_dir: Directory where downloaded files are to be saved.
+        :return: None.
         """
 
         for url in self.downloadable_urls:
@@ -72,10 +73,11 @@ class NetworkDownloader(object):
 
     def _download_network(self, out_filename, target_url):
         """
+        Downloads a network.
         
-        :param out_filename: 
-        :param target_url: 
-        :return: 
+        :param out_filename: Network output file name.
+        :param target_url: Network data url.
+        :return: None.
         """
 
         http = urllib3.PoolManager()
@@ -111,7 +113,6 @@ class NetworkDownloader(object):
         """
 
         print('You must implement this method.')
-        return []
 
     @abstractmethod
     def _parse_urls(self, soup: BeautifulSoup):
@@ -126,8 +127,7 @@ class NetworkDownloader(object):
 
     def get_urls(self):
         """
-        Gets the urls to data for a repository.
-
+        Gets the urls to data for a specific repository.
         
         :return: A list of urls
         """
