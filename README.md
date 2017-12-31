@@ -15,6 +15,22 @@
 | Mark Newman's network collection                   | http://www-personal.umich.edu/~mejn/netdata/                   |
 | MovieLens data set                                 | https://grouplens.org/datasets/movielens/                      |
 | NBER data set                                      | http://nber.org/patents/                                       |
-| Network Repository network data set                | http://networkrepository.com                                   |
+| Network Repository data set                        | http://networkrepository.com                                   |
 | Stanford Large Network Data Set Collection         | https://snap.stanford.edu/data/                                |
 | University of Florida Sparse Matrices Collection   | https://sparse.tamu.edu/                                       |
+
+### Usage 
+
+For instance, if you want to download all repositories data:
+```
+python net-downloader.py -repo all -odir output
+```
+Otherwise, if you want to download a specific repository data, for example, <i> Stanford Large Network Data Set Collection </i>:
+```
+python net-downloader.py -repo snap -odir output
+```
+
+### Requirements
+- Python3
+- Argparse
+- bs4
