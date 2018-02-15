@@ -25,7 +25,7 @@ For instance, if you want to download all repositories data:
 ```
 python net-downloader.py -repo all -odir output
 ```
-Otherwise, if you want to download a specific repository data, for example, <i> Stanford Large Network Data Set Collection </i>:
+Otherwise, if you want to download data from a specific repository, for example, <i> Stanford Large Network Data Set Collection </i>:
 ```
 python net-downloader.py -repo snap -odir output
 ```
